@@ -10,9 +10,9 @@ docker buildx stop
 docker buildx rm
 
 # Upload the updated image to DockerHub
-docker tag eist:latest justchokingaround/basicwebapp-railway:balls
-docker push justchokingaround/basicwebapp-railway:balls
+docker tag eist:latest chokerman/cocking:balls
+docker push chokerman/cocking:balls
 
 # Remove local images
 docker rmi eist:latest
-docker rmi justchokingaround/basicwebapp-railway:balls
+docker rmi chokerman/cocking:balls
